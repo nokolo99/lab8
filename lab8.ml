@@ -207,9 +207,9 @@ the publications don't publish right away. *)
 (*......................................................................
 Exercise 7: Remove the newswire listeners that were previously registered.
 ......................................................................*)
-
+(*)
 WEvent.remove_listener newswire 0;;
-WEvent.remove_listener newswire 1 ;;
+WEvent.remove_listener newswire 1 ;; *)
 
 (*......................................................................
 Exercise 8: Create a new event called publish to signal that all
