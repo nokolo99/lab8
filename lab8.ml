@@ -157,7 +157,7 @@ Exercise 4: Given your implementation of Event, create a new event
 called "newswire" that should pass strings to the event handlers.
 ......................................................................*)
   
-let newswire : string event =
+let newswire : string WEvent.event =
   WEvent.new_event () ;;
 
 (* News organizations might want to register event listeners to the
